@@ -1,0 +1,32 @@
+
+div{
+   background-color: rgb(173, 30, 30);
+   height: 100px;
+   width: 100px;
+   box-sizing: border-box;
+   font-size: large;
+   
+}
+
+ ul.color {color: rgb(187, 73, 73);}
+
+ button:hover { color:blue;}
+ button:active {border-radius: 0px;
+   color:yellowgreen;
+   transform: scale(2.0);}
+
+
+ button{margin:10px;
+font-size: medium;
+border-radius: 8px;
+padding: 5px;}
+
+
+ul li:nth-child(3){color:red;}
+ul li:nth-child(4){color:red;}
+
+ol li:nth-child(even){font-size: 24px;}
+
+.love > p ~p{color:white;}
+
+h2 + p {font-style: italic;}
